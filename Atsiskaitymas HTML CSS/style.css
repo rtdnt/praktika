@@ -6,6 +6,7 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
+    font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Public Sans', sans-serif;
@@ -14,4 +15,170 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+}
+
+.header-links {
+    margin: 15px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+#launching {
+    color: fuchsia;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.firstcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.description {
+    font-size: 20px;
+}
+
+
+.sign-up {
+    font-size: 20px;
+    padding: 20px 50px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 45px;
+    border: solid transparent;
+    background: linear-gradient(0deg, #ff6064, #ff9867);
+    color: #ff6064;
+    background-clip: border-box, text;
+    background-position: center center;
+    box-shadow: inset 0 0 0 100px white;
+    background-size: 110% 110%;
+}
+
+.secondcontainer {
+    height: 226px;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 40px;
+    background-image: url('background.svg');
+    background-size: 100%;
+}
+
+.companies {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.auction {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.auction-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.NFTs {
+    background-color: #EEEEEE;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 430px;
+    margin: 15px;
+}
+
+.nft-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.gloopseries {
+    color: orangered;
+    font-size: 15px;
+}
+
+hr {
+    opacity: 0.2;
+    margin-top: -5px;
+    margin-bottom: 100px;
+    ;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.bid {
+    font-size: 15px;
+}
+
+.auction-info {
+    font-size: 20px;
+    color: gray;
+}
+
+.third-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 30px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footer-end {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: grey;
+    font-size: 18px;
 }
