@@ -24,6 +24,10 @@ header {
     font-size: 20px;
 }
 
+.hamburger-menu {
+    visibility: hidden;
+}
+
 #launching {
     color: fuchsia;
     font-size: 20px;
@@ -161,7 +165,6 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
     padding: 30px;
 }
 
@@ -169,6 +172,22 @@ h5 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
+
+.social-logos {
+    display: inline;
+    height: 50px;
+}
+
+.social- {
+    height: 25px;
+    padding: 7px;
+    opacity: 0.5;
+}
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer-end {
@@ -192,7 +211,8 @@ h2 {
         position: relative;
         width: 100%;
         margin: 0px;
-        padding: 10px;
+        padding: 0px;
+        height: 3500px;
     }
 
     h2 {
@@ -204,12 +224,7 @@ h2 {
     header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
-
-
-    .header-links {
-        display: block;
+        padding: 30px;
     }
 
     .sign-up {
@@ -223,11 +238,9 @@ h2 {
         justify-content: space-between;
         align-items: flex-start;
         overflow: hidden;
-        margin-bottom: 70px;
-    }
+        margin-bottom: 20px;
+        padding: 30px;
 
-    .first-container-items {
-        width: 600px;
     }
 
     #launching {
@@ -236,21 +249,22 @@ h2 {
 
     .pinkNFT {
         height: 400px;
-        margin-left: none;
+        margin-left: 0px;
+        padding: 0px;
     }
 
     .first-container-text {
-        margin-right: none;
+        margin-right: 0px;
     }
 
     .secondcontainer {
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
         background-position: center;
-        margin: none;
-        padding: none;
+        margin: 0px;
         border-radius: 0px;
     }
+
 
     h3 {
         font-size: 40px;
@@ -260,7 +274,7 @@ h2 {
         display: grid;
         grid-template-columns: 140px;
         align-items: center;
-        padding: 20px;
+        padding: 30px;
         margin-bottom: 0px;
     }
 
@@ -294,13 +308,13 @@ h2 {
 
     .auction {
         overflow: hidden;
-        margin-top: 0px;
-
-        margin-bottom: 0px;
+        margin: 0px;
+        padding-left: 30px;
     }
 
     .third-container {
         overflow: hidden;
+        padding-left: 30px;
     }
 
     .footer {
@@ -314,6 +328,20 @@ h2 {
         align-items: flex-start;
     }
 
+    .social- {
+        height: 25px;
+        padding: 7px;
+        opacity: 0.5;
+    }
+
+    .social-logos {
+        display: flex;
+    }
+
+    .footer-info-logo {
+        margin-left: 30px;
+    }
+
     .footer-links {
         display: grid;
         grid-template-columns: auto auto;
@@ -322,9 +350,20 @@ h2 {
     .copyright {
         display: inline;
         width: 450px;
+        margin-left: 30px;
     }
 
     .launching {
         visibility: hidden;
+    }
+
+    .header-links {
+        visibility: collapse;
+    }
+
+    .hamburger-menu {
+        visibility: visible;
+        opacity: 0.5;
+        height: 40px;
     }
 }
