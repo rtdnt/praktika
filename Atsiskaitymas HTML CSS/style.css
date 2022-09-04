@@ -1,11 +1,12 @@
 body {
     position: relative;
-    width: 1440px;
-    height: 3300px;
-    padding: 80px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 16px;
+    position: relative;
+    width: 1440px;
+    height: 3300px;
+    padding: 80px;
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
@@ -15,16 +16,12 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-links {
     margin: 15px;
     font-size: 20px;
-}
-
-h2 {
-    font-size: 80px;
-    font-weight: 800;
 }
 
 #launching {
@@ -73,12 +70,12 @@ h2 {
 }
 
 .companies {
+    margin-top: 70px;
+    margin-bottom: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 70px;
-    margin-bottom: 70px;
 }
 
 h3 {
@@ -181,4 +178,153 @@ h5 {
     justify-content: space-between;
     color: grey;
     font-size: 18px;
+}
+
+
+h2 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        position: relative;
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 800;
+        width: 250px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .header-links {
+        display: block;
+    }
+
+    .sign-up {
+        padding: 10px;
+        width: 150px;
+        height: 60px;
+    }
+
+    .firstcontainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        overflow: hidden;
+        margin-bottom: 70px;
+    }
+
+    .first-container-items {
+        width: 600px;
+    }
+
+    #launching {
+        font-size: 15px;
+    }
+
+    .pinkNFT {
+        height: 400px;
+        margin-left: none;
+    }
+
+    .first-container-text {
+        margin-right: none;
+    }
+
+    .secondcontainer {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: none;
+        padding: none;
+        border-radius: 0px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .companies {
+        display: grid;
+        grid-template-columns: 140px;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+
+    .company1 {
+        grid-column: 1 / 2;
+        grid-row: 1/ 2;
+        overflow: hidden;
+    }
+
+    .company2 {
+        grid-column: 2 / 2;
+        grid-row: 1/ 2;
+        overflow: hidden;
+    }
+
+    .company3 {
+        grid-column: 1 / 2;
+        grid-row: 2/ 2;
+        overflow: hidden;
+    }
+
+    .company4 {
+        visibility: hidden;
+    }
+
+    .company5 {
+        grid-column: 2 / 2;
+        grid-row: 2/ 2;
+        overflow: hidden;
+    }
+
+    .auction {
+        overflow: hidden;
+        margin-top: 0px;
+
+        margin-bottom: 0px;
+    }
+
+    .third-container {
+        overflow: hidden;
+    }
+
+    .footer {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .copyright {
+        display: inline;
+        width: 450px;
+    }
+
+    .launching {
+        visibility: hidden;
+    }
 }
