@@ -22,6 +22,15 @@
   text-transform: uppercase;
 }
 
+#output {
+  visibility: hidden;
+  padding-top: 50px;
+  font-size: 2em;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
 form {
   max-width: 80%;
   margin: 50px auto;
@@ -56,6 +65,10 @@ form {
 @media screen and (min-width: 768px) {
   .headline {
     font-size: 3.5em;
+  }
+
+  #output {
+    font-size: 3em;
   }
 
   #search,
