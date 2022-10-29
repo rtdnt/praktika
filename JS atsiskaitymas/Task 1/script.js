@@ -8,3 +8,15 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+document.querySelector("form").addEventListener("submit", (e) => { 
+
+    e.preventDefault(); 
+
+    let weightInKilograms = document.getElementById("search").value;
+
+    document.getElementById("output").style.visibility = "visible";
+    
+    document.getElementById("svarai").innerHTML = weightInKilograms * 2.2046;
+    document.getElementById("gramai").innerHTML = weightInKilograms / 0.0010000;
+    document.getElementById("uncijos").innerHTML = weightInKilograms * 35.274;
+});
