@@ -17,6 +17,6 @@ document.querySelector("form").addEventListener("submit", (e) => { // When the f
     document.getElementById("output").style.visibility = "visible"; // opens the div tag (below) with style
     
     document.getElementById("svarai").innerHTML = weightInKilograms * 2.2046; // calculates and assigns value in pounds
-    document.getElementById("gramai").innerHTML = weightInKilograms / 0.0010000; // shows the value in kilograms 
+    document.getElementById("gramai").innerHTML = weightInKilograms / 0.0010000; // calculates and assigns value in grams 
     document.getElementById("uncijos").innerHTML = weightInKilograms * 35.274; // calculates and assigns the value in ounces
 });
