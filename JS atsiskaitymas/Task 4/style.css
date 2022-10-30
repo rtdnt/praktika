@@ -27,3 +27,28 @@
   margin-top: 50px;
   color: #333;
 }
+
+/* */
+
+#output {
+  width: 80%;
+  margin-top: 25px;
+}
+
+#output > ul {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(130px, 1fr) );
+  margin: 0 auto;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+#output > ul > li > span {
+  font-size:3.2vh;
+}
+
+#output > ul > li {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
